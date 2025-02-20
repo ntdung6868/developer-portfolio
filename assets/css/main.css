@@ -1286,3 +1286,48 @@ section,
 .starter-section {
     /* Add your styles here */
 }
+
+/* Add these styles to your CSS file */
+.projects .projectsSwiper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.projects .card {
+    height: 100%;
+}
+
+.projects .card-img-top {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.projects .card-body {
+    padding: 2rem;
+}
+
+.projects .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.projectsSwiper {
+    padding-bottom: 50px;
+}
+
+.projectsSwiper .swiper-pagination {
+    bottom: 0;
+}
+
+.projectsSwiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #ddd;
+    opacity: 1;
+}
+
+.projectsSwiper .swiper-pagination-bullet-active {
+    background: var(--accent-color);
+}
